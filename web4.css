@@ -1,0 +1,209 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.home-button {
+  color: white;
+  text-decoration: none;
+}
+
+.pagina-2 {
+  color: white;
+  text-decoration: none;
+}
+
+.pagina-3 {
+  color: #A8D672;
+  text-decoration: none;
+}
+
+.pagina-4 {
+  color: #A8D672;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #2B4037;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0B1210;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.logo {
+  padding: 12px;
+  font-size: 17px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #A8D672;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.contact {
+  color: #A8D672
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.save-point {
+  background-color: #2B4037;
+  border-radius: 9999px;
+  width: 350px;
+  justify-content: center;
+  color: #70D6B2;
+}
+
+.hero h1 {
+  font-size: 35px;
+}
+
+.hero p {
+  color: gray;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.email {
+  background-color: #A8D672;
+}
+
+.discord {
+  background-color: #C6B5FF;
+}
+
+.email,
+.discord {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 15px;
+  color: black;
+}
+
+.email-icon,
+.discord-icon {
+  font-size: 24px;
+}
+
+.form-container {
+  background-color: #14251f;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.small-text {
+  color: #e6b58c;
+}
+
+.form-text {
+  color: gray;
+}
+
+.naam-email {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  background-color: #10201a;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.naam-email input {
+  width: 50%;
+}
+
+.gamertag {
+  width: 95%;
+}
+
+textarea {
+  background-color: #10201a;
+  color: white;
+  width: 95%;
+  height: 80px;
+}
+
+.reset {
+  background-color: #10201a;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit {
+  background-color: #A8D672;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.footer {
+    background-color: #12211b;
+    margin-top: 80px;
+    padding: 30px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-tekst h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.footer-tekst p {
+    color: #9ca79e;
+    font-size: 10px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.copyright {
+    color: #586b60;
+    font-size: 8px;
+}
